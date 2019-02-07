@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace MyFirstGitHubClassRoomConsoleApp
 {
-    class Program
+    class Demo
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hejsa");
-        }
+        private int _number = 17;
+   
+
+        public int Number { get => _number; set => _number = value; }
     }
 }
